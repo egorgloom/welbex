@@ -65,6 +65,7 @@ body {
     width: 503px;
     display: flex;
     justify-content: space-between;
+
     align-items: center;
     font-size: var(--font-size16px);
     column-gap: 30px;
@@ -113,6 +114,8 @@ body {
 
 .wrapper {
     color: var(--color-white);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin: 90px 150px 0;
 }
