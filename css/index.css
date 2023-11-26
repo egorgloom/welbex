@@ -23,7 +23,6 @@ body {
     padding: 0;
     margin: 0 auto;
     background: url('../img/Desktop-bg.svg') center center no-repeat;
-    /* overflow-x: hidden; */
 }
 
 
@@ -31,7 +30,8 @@ body {
 .header {
     color: var(--color-white);
     margin: 46px 150px 0px 150px;
-    /* padding-top: 46px; */
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 1140px;
     height: 73px;
@@ -59,16 +59,26 @@ body {
 }
 
 .navigation {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
 .navigationSite {
     width: 503px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     font-size: var(--font-size16px);
-    column-gap: 30px;
+    -webkit-column-gap: 30px;
+       -moz-column-gap: 30px;
+            column-gap: 30px;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     padding-top: 15px;
@@ -87,8 +97,12 @@ body {
 }
 
 .socialLinks {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     gap: 30px;
     margin-left: 137px;
     padding-top: 15px;
@@ -114,6 +128,8 @@ body {
 
 .wrapper {
     color: var(--color-white);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin: 90px 150px 0;
 }
@@ -195,9 +211,14 @@ body {
 
 .bonusBlock {
     margin-top: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: end;
-    flex-wrap: wrap;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     margin-left: auto;
     gap: 30px;
     width: 330px;
@@ -248,10 +269,14 @@ body {
 
 
 .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding-top: 55px;
     margin: 69px 150px 0;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 .footerH3 {
@@ -300,6 +325,8 @@ body {
 }
 
 .block {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: 52px;
 }
@@ -331,15 +358,21 @@ body {
 
 
 .contactsLink {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: end;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
     gap: 10px;
     margin: 20px 0 18px;
 }
 
 .protectionRights {
     margin: 70px 0 20px 0;
-    justify-content: end;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
 }
 
 .protectionRights>p {
